@@ -76,8 +76,8 @@ require 'db.php';
 #A_2, .H3_1 {
 	color: rgb(213, 9, 9);
 	display: block;
-	height: 18px;
-	overflow-wrap: break-word;
+	/*height: 18px;*/
+	/*overflow-wrap: break-word;*/
 	text-align: left;
 	text-decoration: none solid rgb(213, 9, 9);
 	text-transform: uppercase;

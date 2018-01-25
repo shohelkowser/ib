@@ -54,7 +54,7 @@ $img1= $row->img1;
 <div class="col-sm-7">
   <div class="product-information"><!--/product-information-->
    <img src="img/new.jpg" class="newarrival text-center" alt="" />
-   <h2><?php echo $model; ?></h2>
+   <h2><?php echo $name; ?></h2>
    <!-- <p>Web ID: <?php echo $id; ?></p> -->
    <img src="img/rating.png" alt="" />
 
@@ -66,7 +66,8 @@ $img1= $row->img1;
       <input type="text" name="quantity" value="1"/>
      </span>
     <p><b>Availability: </b><strong><?php echo $quantity; ?></strong> In Stock</p>
-    <p><b>Brand:</b> <?php echo $brand; ?></p>
+    <p><b>Brand: </b> <?php echo $brand; ?></p>
+    <p><b>Model No: </b> <?php echo $model; ?></p>
     <p><?php echo $details; ?></p>
     <br>
     <br>

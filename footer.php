@@ -11,6 +11,14 @@
 			<h3>Our Services</h3>
 			<ul class="float">
 				<li><a href="http://internetboi.com/contact.php">Contact Us</a></li>
+				<li>
+					<div id="google_translate_element"></div><script type="text/javascript">
+					function googleTranslateElementInit() {
+					  new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'bn,en'}, 'google_translate_element');
+					}
+					</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+					        
+				</li>
 			</ul>
 			<ul class="float">
 				<li><a href="http://internetboi.com/">Galleries</a></li>
@@ -30,7 +38,7 @@
 		
 		
 		<div class="col-md-12 fh5co-copyright text-center">
-			<p>&copy; 2017 internetboi.com All Rights Reserved. <span>Designed by <i class="fa fa-heart"></i> Shohel </span></p>	
+			<p>&copy; 2017 internetboi.com All Rights Reserved. <span>Designed by -<i class="fa fa-heart"></i>- Shohel </span></p>	
 		</div>
 		
 	</div>
@@ -52,4 +60,6 @@
 
 </body>
 </html>
-<?php $conn->close(); ?>
+<?php
+mysqli_close($conn);
+ ?>
