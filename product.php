@@ -65,7 +65,7 @@ $img1= $row->img1;
       <label>Quantity:</label>
       <input type="text" name="quantity" value="1"/>
      </span>
-    <p><b>Availability: </b><strong><?php echo $quantity; ?></strong> In Stock</p>
+    <p><b>Availability: </b><strong> In Stock</strong> </p>
     <p><b>Brand: </b> <?php echo $brand; ?></p>
     <p><b>Model No: </b> <?php echo $model; ?></p>
     <p><?php echo $details; ?></p>
@@ -75,22 +75,22 @@ $img1= $row->img1;
     <div class="row">
       <div class="col-md-6">
         <div class="form-group">
-          <input class="form-control" placeholder="Name" type="text" name="fullname" required="required">
+          <input class="form-control" placeholder="Name" type="text" name="fullname">
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <input class="form-control" placeholder="mobile" type="text" name="mobile" required="required">
+          <input class="form-control" placeholder="mobile" type="text" name="mobile">
         </div>
       </div>
       <div class="col-md-6">
         <div class="form-group">
-          <input class="form-control" placeholder="Email" type="text" name="email" required="required">
+          <input class="form-control" placeholder="Email" type="text" name="email">
         </div>
       </div>
       <div class="col-md-12">
         <div class="form-group">
-          <textarea name="address" class="form-control" id="" cols="30" rows="7" placeholder="Address" required="required"></textarea>
+          <textarea name="address" class="form-control" id="" cols="30" rows="7" placeholder="Address"></textarea>
         </div>
       </div>
       <div class="col-md-12">
@@ -99,12 +99,10 @@ $img1= $row->img1;
           <input type="hidden" name="product_name" value="<?php echo $name; ?>" />
           <input type="hidden" name="price" value="<?php echo $price; ?>" />
           <input type="hidden" value="<?php echo $id; ?>" name="id"/>
-          <?php if($quantity>0){ ?>
             <button type="submit" class="btn btn-fefault cart" name="add_to_cart">
             <i class="fa fa-shopping-cart"></i>
             Buy It Now
           </button>
-          <?php } ?>
           
         </div>
       </div>
